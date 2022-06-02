@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    background-color: #000000;
+    color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    margin: 3vw 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+nav ul li .icon{
+    font-size: 1.5vw;
+    margin: 2vh 0;
+    width: 4vw;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #221f1f;
+    color: #ffffff;
+    text-decoration: none;
+}
+nav ul li #signup{
+    background-color: #700B97;
+    color: #ffffff;
+}
+nav ul li .icon:hover{
+    background-color: #ffffff;
+    color: #221f1f;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 60%;
+    background-color: #ffffff;
+    height: 99%;
+    color: #000000;
+    padding: 1vw 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+form header{
+    font-size: 1.7vw;
+    word-spacing: 2px;
+}
+#span-1,
+#span-2,
+#span-3,
+#span-4,
+#span-5{
+    display: flex;
+    justify-content: space-between;
+
+}
+label{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+#span-1 div,
+#span-2 div,
+#span-3 div,
+#span-4 div,
+#span-5 div,
+#select{
+    width: calc(100%/2 - 20px);
+}
+#span-1 div input,
+#span-2 div input,
+#span-3 div input,
+#span-4 div input,
+#span-5 div input,
+#gender{
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    height: 40px;
+    width: 100%; 
+    outline: none;
+    border-radius: 5px;
+    margin-top: 0.3vw;
+    border: 1px  solid #ccc;
+    padding-left: 1vw;
+    font-size: 1.2vw;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+#gender{
+    padding-top: 0.5vw;
+}
+#register{
+    width: 100%;
+    background: linear-gradient(100deg, #000000, #700B97);
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.4vw;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+#register:hover{
+    background: linear-gradient(100deg, #700B97,#000000);
+}
+p{
+    font-size: 1.3vw;
+}
+#login{
+    height: 40px;
+    background: linear-gradient(100deg, #700B97,#000000);
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.3vw;
+    padding: 0.7vw 2.5vw;
+    outline: none;
+    border: none;
+}
+#login:hover{
+    background: linear-gradient(100deg, #000000, #700B97);
+}

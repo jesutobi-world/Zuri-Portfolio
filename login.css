@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    background-color: #000000;
+    color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    margin: 3vw 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+nav ul li .icon{
+    font-size: 1.5vw;
+    margin: 2vh 0;
+    width: 4vw;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #221f1f;
+    color: #ffffff;
+    text-decoration: none;
+}
+nav ul li #log-in{
+    background-color: #700B97;
+    color: #ffffff;
+}
+nav ul li .icon:hover{
+    background-color: #ffffff;
+    color: #221f1f;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 60%;
+    background-color: #ffffff;
+    height: 70%;
+    color: #000000;
+    padding: 1vw 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+form header{
+    font-size: 1.7vw;
+    word-spacing: 2px;
+}
+#login{
+    width: 100%;
+    background: linear-gradient(100deg, #000000, #700B97);
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.4vw;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+#login:hover{
+    background: linear-gradient(100deg, #700B97,#000000);
+}
+#span-4{
+    display: flex;
+}
+p{
+    font-size: 1.3vw;
+}
+#signup{
+    height: 40px;
+    background: linear-gradient(100deg, #700B97,#000000);
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.3vw;
+    padding: 0 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+}
+#signup:hover{
+    background: linear-gradient(100deg, #000000, #700B97);
+}
+#span-1, #span-2{
+    display: flex;
+    flex-direction: column;
+}
+#span-1 input, #span-2 input{
+    width: 70%;
+    height: 42px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-bottom-width: 2px;
+    padding-left: 1vw;
+    margin-top: 0.7vw;
+    font-size: 1.2vw;
+    outline: none;
+}
+label{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+#span-3{
+    display: flex;
+    flex-direction: row;
+}
+#span-3 input{
+        margin-top: 7px;
+        margin-right: 10px;
+}
